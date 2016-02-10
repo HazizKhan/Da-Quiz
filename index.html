@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+	<title>Da Quiz</title>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Da Quiz</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="change">
+            <li><a href="index.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="container" id="asd"></div>
+    <div class="container" id="container">
+   <div id="container1">
+   <h2>Are You Genius?</h2>
+   <form action="javascript:void(0)" method="post" onsubmit="setUsername();question();" id="form">
+   
+   <input type="text" name="username" placeholder="Enter Your Name" required="required" id="username">
+   <br>
+   <br>
+     <input type="submit" name="submit" value="Start Quiz" class="btn btn-default">
+</form>
+   </div>
+
+
+</div>
+	<script src="script.js" type="text/javascript"></script>
+	<script src="jquery/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
